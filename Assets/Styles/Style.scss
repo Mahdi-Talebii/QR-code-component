@@ -1,0 +1,29 @@
+// General Styles
+
+:root {
+    font-size: 62.5% !important;
+}
+
+* {
+    font-size: 1.5rem;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+.centralize {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.centralize-column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+@import 'body';

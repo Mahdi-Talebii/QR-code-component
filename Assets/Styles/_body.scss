@@ -1,0 +1,39 @@
+body {
+    background-color:  hsl(212, 45%, 89%);
+}
+
+.main-section {
+    padding: 3rem;
+    border-radius: 1.5rem;
+    width: 18%;
+    background-color: hsl(0, 0%, 100%);
+    margin-top: 10%;
+    .qr-img {
+        border-radius: 1.5rem;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    h2 {
+        font-weight: 700;
+        font-size: 1.6rem;
+        margin-bottom: 2rem;
+        text-align: center;
+        color: hsl(218, 44%, 22%);
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 1.4rem;
+        text-align: center;
+        color: hsl(212, 45%, 89%);
+    }
+}
+
+
+@media all and (max-width:376px) {
+    .main-section {
+        width: 85%;
+        margin-top: 20%;
+    }
+}
